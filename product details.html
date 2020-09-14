@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title></title>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+<link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="abir.css">
+<script src="https://kit.fontawesome.com/9f0a5cb062.js" crossorigin="anonymous"></script>
+<style>
+
+@media only screen and (max-width: 800px){
+
+.row{
+display:block;
+}
+.page-btn span{
+width:2px;
+height:2px;
+
+}
+}
+.row-2{
+justify-content:space-between;
+margin:100px auto 50px;
+}
+select{
+border:1px solid #ff523b;
+padding:5px;
+background:#fff;
+}
+select:focus{
+outline:none;
+}
+.page-btn{
+margin:0 auto 80px;
+}
+.page-btn span{
+border:1px solid #ff523b;
+display:inline-block;
+width:40px;
+height:40px;
+line-height:40px;
+text-align:center;
+}
+.page-btn span:hover{
+color:#fff;
+background:#ff523b;
+}
+.single-product{
+margin-top:80px;
+}
+.single-product .col-2{
+padding:20px;
+}
+.single-product h4{
+margin:20px 0;
+font-size:22px;
+font-weight:bold;
+}
+.single-product select{
+margin-top:20px;
+padding:10px;
+display:block;
+}
+.single-product input{
+width:40px;
+font-size:20px;
+padding-left:10px;
+margin-right:10px;
+border:1px solid #ff523b;
+}
+.single-product .fa{
+color:#ff523b;
+margin-left:10px;
+}
+.small-img-row{
+display:flex;
+justify-content:space-between;
+}
+.small-img-col{
+flex-basis:24%;
+}
+.col-2 p{
+margin-bottom:60px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="navbar">
+
+<div class="logo">
+<img src="receiv8.png" width="125px">
+</div>
+
+<nav>
+<ul id="MenuItems">
+<li><a href="index.html">Home</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="product details.html">About</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="account.html">Account</a></li>
+
+</ul>
+</nav>
+<a href="product details.html">
+<img src="cart.png" width="30px" height="30px"></a>
+<img src="menu.png" height="30px" class="menu-icon" onclick="menutoggle()">
+</div>
+</div>
+</div>
+
+<!-----single product details---->
+
+
+
+
+<div class="small-container single-product">
+<div class="row">
+<div class="col-2">
+<img src="60.jpeg" width="100%" id="LargeImage">
+
+<div class="small-img-row">
+<div class="small-img-col">
+<img src="60.jpeg" width="100%" class="SmallImg">
+</div>
+<div class="small-img-col">
+<img src="68.jpeg" width="100%" class="SmallImg">
+</div>
+<div class="small-img-col">
+<img src="69.jpeg" width="100%" class="SmallImg">
+</div>
+<div class="small-img-col">
+<img src="66.jpeg" width="100%" class="SmallImg">
+</div>
+</div>
+
+</div>
+<div class="col-2">
+<p>Home / T-shirt</p>
+<h1>Red Printed T-shirt by HRX</h1>
+<h4>$50.00</h4>
+<select>
+<option>Select Size</option>
+<option>XXL</option>
+<option>XL</option>
+<option>Large</option>
+<option>Medium</option>
+<option>Small</option>
+</select>
+<input type="number" value="1">
+<a href="#" class="btn">Add To Cart</a>
+<h3>Product Details<i class="fa fa-indent"></i></h3><br>
+<p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of sports Accessible to the Many Our Purpose Is To Sustainably Make the Pleasure and Benefits </p>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="small-container">
+<div class="row row-2">
+<h2>Related Products</h2>
+<a href="#">View More</a>
+</div>
+</div>
+
+
+
+
+
+
+<div class="small-container" id="featured">
+
+<div class="row">
+
+<div class="col-4">
+<img src="96.jpeg">
+<h4>Red Printed T-Shirt </h4>
+<div class="rating">
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+</div>
+<p>50.00$</p>
+
+
+
+
+</div>
+
+<div class="col-4">
+<img src="97.jpeg">
+<h4>Red Printed T-Shirt </h4>
+<div class="rating">
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+</div>
+<p>50.00$</p>
+</div>
+
+
+<div class="col-4">
+<img src="98.jpeg">
+<h4>Red Printed T-Shirt </h4>
+<div class="rating">
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+</div>
+<p>50.00$</p>
+</div>
+
+
+<div class="col-4">
+<img src="99.jpeg">
+<h4>Red Printed T-Shirt </h4>
+<div class="rating">
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+<span>
+<i class="lni lni-star-filled"></i>
+</span>
+</div>
+<p>50.00$</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----footer----->
+
+
+<div class="footer" id="footerBD">
+<div class="container">
+<div class="row">
+
+<div class="footer-col-1">
+<h3>Download Our App</h3>
+<p>Download App for Android and ios mobile phone</p>
+<div class="app-logo">
+<img src="play.png">
+<img src="appstore.png">
+</div>
+</div>
+
+<div class="footer-col-2">
+<img src="redd.png">
+<p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of sports Accessible to the Many</p>
+</div>
+<div class="footer-col-3">
+<h3>Useful Links</h3>
+<ul>
+<li>Coupons</li>
+<li>Blog Post</li>
+<li>Return Policy</li>
+<li>Join Affiliate</li>
+</ul>
+</div>
+
+<div class="footer-col-4">
+<h3>Follow Us</h3>
+<ul>
+<li>Facebook</li>
+<li>Twitter</li>
+<li>Instagram</li>
+<li>Youtube</li>
+</ul>
+</div>
+</div>
+<hr>
+<p class="copyright">Copyright 2020- abir mahmud </p>
+</div>
+</div>
+
+
+
+
+
+<script>
+
+var MenuItems= document.getElementById("MenuItems");
+
+MenuItems.style.maxHeight= "0px";
+
+
+
+function menutoggle(){
+
+if(MenuItems.style.maxHeight== "0px"){
+MenuItems.style.maxHeight= "200px";
+}
+else{
+MenuItems.style.maxHeight= "0px";
+}
+
+
+}
+
+
+
+
+</script>
+
+
+
+<script>
+
+
+var LargeImage =  document.getElementById("LargeImage");
+
+var SmallImg = document.getElementsByClassName("SmallImg");
+
+
+SmallImg[0].onclick = function(){
+LargeImage.src = SmallImg[0].src;
+}
+SmallImg[1].onclick = function(){
+LargeImage.src = SmallImg[1].src;
+}
+SmallImg[2].onclick = function(){
+LargeImage.src = SmallImg[2].src;
+}
+SmallImg[3].onclick = function(){
+LargeImage.src = SmallImg[3].src;
+}
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
